@@ -483,31 +483,31 @@ ul {
     .footer .social-icons li {
       margin-left: 0; } }
 
-.home h2 {
+section h2 {
   font-size: 48px;
   margin-bottom: 60px;
   text-align: center; }
 
-.home h3 {
+section h3 {
   font-size: 24px; }
 
-.home .moble-view {
+section .moble-view {
   display: none; }
 
 @media screen and (max-width: 991px) {
-  .home h2 {
+  section h2 {
     font-size: 32px;
     margin-bottom: 32px; }
-  .home h3 {
+  section h3 {
     font-size: 20px; } }
 
 @media screen and (max-width: 767px) {
-  .home h2 {
+  section h2 {
     font-size: 24px;
     margin-bottom: 20px; }
-  .home .pc-view {
+  section .pc-view {
     display: none; }
-  .home .moble-view {
+  section .moble-view {
     display: block; } }
 
 .hero-banner {
