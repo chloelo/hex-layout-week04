@@ -205,6 +205,9 @@ section {
   h2 {
     color: $white;
   }
+  img {
+    width: 100%;
+  }
   .item-wrap {
     display: flex;
     justify-content: space-around;
@@ -327,6 +330,7 @@ section {
     margin-bottom: 16px;
   }
   .btn-submit {
+    cursor: pointer;
     width: 33.3333%;
     padding: 16px;
     background-color: $primary;

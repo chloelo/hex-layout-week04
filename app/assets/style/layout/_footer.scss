@@ -5,6 +5,9 @@
   padding-bottom: 28px;
   a {
     color: $white;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   li {
     display: inline-block;
@@ -14,10 +17,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-  .info {
-    display: flex;
-    flex-direction: column;
   }
   .links {
     margin-bottom: 18px;
@@ -116,6 +115,7 @@
     padding-top: 23px;
     padding-bottom: 23px;
     .info {
+      display: flex;
       flex-direction: row-reverse;
       justify-content: space-between;
       align-items: flex-start;

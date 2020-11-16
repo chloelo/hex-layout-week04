@@ -7,6 +7,15 @@
   .navbar {
     display: flex;
   }
+  .logo {
+    background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/logo.png") no-repeat
+      center;
+    width: 80px;
+    height: 49px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
   a {
     font-size: 20px;
     color: $white;
@@ -16,7 +25,6 @@
     }
   }
   li {
-    // display: inline-block;
     & + li {
       margin-left: 64px;
     }
@@ -27,7 +35,7 @@
   @include mobile {
     padding: 0;
     flex-direction: column;
-    .logo {
+    h1 {
       padding: 10px;
     }
     .navbar {
